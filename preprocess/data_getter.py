@@ -82,5 +82,5 @@ class DataGetter(object):
                 tensor_dataset = tensor
             else:
                 tensor_dataset = torch.cat((tensor_dataset, tensor), dim=0)
-
+      
         return tensor_dataset
